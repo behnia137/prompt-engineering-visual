@@ -1,0 +1,19 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Misc
+*.log
+.env
+
+# Claude Code local files
+.claude/
