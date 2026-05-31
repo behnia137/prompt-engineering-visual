@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Made with Mermaid](https://img.shields.io/badge/diagrams-mermaid-ff3670.svg)](https://mermaid.js.org/)
 [![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue.svg)](#-the-techniques)
-[![Techniques](https://img.shields.io/badge/techniques-12-blueviolet.svg)](#-the-techniques)
+[![Techniques](https://img.shields.io/badge/techniques-22-blueviolet.svg)](#-the-techniques)
 [![Stars Welcome](https://img.shields.io/badge/⭐_stars-welcome-gold.svg)](#)
 
 *If this helps you finally write prompts that work — drop a ⭐. It helps more people find it.*
@@ -45,30 +45,38 @@ No PhD required. No prior coding needed. Just better results from the AI you alr
 | 3 | [🎭 Role Prompting](techniques/role-prompting.md) | Give the AI a job title before you ask. |
 | 4 | [📐 Clear Instructions](techniques/clear-instructions.md) | Vague in, vague out — be specific. |
 | 5 | [🧾 Output Formatting](techniques/output-format.md) | Tell it the *shape* you want: list, table, JSON. |
+| 6 | [🚦 Constraints & Negatives](techniques/constraints.md) | Set the boundaries it can't cross. |
+| 7 | [✍️ Output Priming](techniques/output-priming.md) | Start the answer for it; it finishes the pattern. |
 
 ### ⚙️ Level up — reasoning & reliability
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 6 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
-| 7 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
-| 8 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
-| 9 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
+| 8 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
+| 9 | [🪜 Step-Back Prompting](techniques/step-back.md) | Get the general principle first, then the answer. |
+| 10 | [🧗 Least-to-Most](techniques/least-to-most.md) | Solve the easy sub-problems first, then climb. |
+| 11 | [🌳 Tree of Thoughts](techniques/tree-of-thoughts.md) | Explore several branches, keep the best. |
+| 12 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
+| 13 | [🔍 Self-Critique & Reflection](techniques/self-critique.md) | Have it grade and fix its own work. |
+| 14 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
 
-### 🤖 Power tools — agents & systems
+### 🤖 Power tools — building with prompts
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 10 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
-| 11 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
-| 12 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
+| 15 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
+| 16 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
+| 17 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
+| 18 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
+| 19 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
+| 20 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
 
 ### 🛡️ Don't get burned — pitfalls
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 13 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
-| 14 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
+| 21 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
+| 22 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
 
 ---
 
