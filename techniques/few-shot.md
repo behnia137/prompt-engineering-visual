@@ -19,7 +19,7 @@ A few examples teach the pattern better than a paragraph of instructions.
 
 This shines when the task is **specific or unusual**: a custom output format, a niche classification, a particular writing style, or edge cases that are hard to describe in words. Two to five good examples usually beat a long-winded instruction. ("One-shot" is just few-shot with a single example.)
 
-Tips that matter: make your examples **consistent in format** (the model copies structure religiously), **cover the tricky cases** you care about, and **keep the order sensible**. Watch out — examples eat up your [context window](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/context-window.md), and a biased set of examples will bias the output.
+Tips that matter: make your examples **consistent in format** (the model copies structure religiously), **cover the tricky cases** you care about, and **keep the order sensible**. Watch out — examples eat up your [context window](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/context-window.md), and a biased set of examples will bias the output.
 
 ## 🌍 Real-world example
 

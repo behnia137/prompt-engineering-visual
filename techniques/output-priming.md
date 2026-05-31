@@ -16,7 +16,7 @@ The AI finishes the pattern you started.
 
 ## 🔧 How it actually works
 
-**Output priming** (also called *prefilling* or *priming the response*) means you begin the model's answer yourself, and it continues from your starting point. Because an [LLM](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/llm.md) is fundamentally a *next-word predictor*, whatever it's handed to continue strongly shapes what comes next — so seeding the first tokens locks in the format and tone.
+**Output priming** (also called *prefilling* or *priming the response*) means you begin the model's answer yourself, and it continues from your starting point. Because an [LLM](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/llm.md) is fundamentally a *next-word predictor*, whatever it's handed to continue strongly shapes what comes next — so seeding the first tokens locks in the format and tone.
 
 It's a precision tool for **forcing structure**. End your instruction and then prime with `{` to force JSON, with `1.` to force a numbered list, with ` ```python ` to force a code block, or with "Sure! Here's the summary:" to skip preamble and jump straight to content. The model treats your opener as established context it must stay consistent with.
 

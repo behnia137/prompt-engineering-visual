@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Made with Mermaid](https://img.shields.io/badge/diagrams-mermaid-ff3670.svg)](https://mermaid.js.org/)
 [![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue.svg)](#-the-techniques)
-[![Techniques](https://img.shields.io/badge/techniques-22-blueviolet.svg)](#-the-techniques)
+[![Techniques](https://img.shields.io/badge/techniques-24-blueviolet.svg)](#-the-techniques)
 [![Stars Welcome](https://img.shields.io/badge/⭐_stars-welcome-gold.svg)](#)
 
 *If this helps you finally write prompts that work — drop a ⭐. It helps more people find it.*
@@ -34,6 +34,33 @@ No PhD required. No prior coding needed. Just better results from the AI you alr
 
 ---
 
+## 🧭 Which technique should I use?
+
+> Lost? Start here. Follow the arrows to the right tool for your task.
+
+```mermaid
+flowchart TD
+    Start(["🤔 What do you need?"]) --> Facts{"Needs real or<br/>current facts?"}
+    Facts -->|Yes| G["📖 Grounding<br/>(+ ReAct for live data)"]
+    Facts -->|No| Hard{"Hard reasoning,<br/>math or logic?"}
+    Hard -->|Yes| CoT["🔗 Chain-of-Thought<br/>(+ Self-Consistency if critical)"]
+    Hard -->|No| Fmt{"Need a strict<br/>output format?"}
+    Fmt -->|Yes| OF["🧾 Output Formatting<br/>(+ Output Priming)"]
+    Fmt -->|No| Style{"Specific tone<br/>or expertise?"}
+    Style -->|Yes| Role["🎭 Role Prompting"]
+    Style -->|No| Odd{"Unusual or<br/>custom task?"}
+    Odd -->|Yes| FS["📚 Few-Shot<br/>(show examples)"]
+    Odd -->|No| ZS["🎯 Zero-Shot<br/>(just ask clearly)"]
+    style G fill:#dcfce7,stroke:#22c55e
+    style CoT fill:#dcfce7,stroke:#22c55e
+    style OF fill:#dcfce7,stroke:#22c55e
+    style Role fill:#dcfce7,stroke:#22c55e
+    style FS fill:#dcfce7,stroke:#22c55e
+    style ZS fill:#dcfce7,stroke:#22c55e
+```
+
+---
+
 ## 📚 The Techniques
 
 ### 🌱 Start here — the everyday essentials
@@ -47,36 +74,38 @@ No PhD required. No prior coding needed. Just better results from the AI you alr
 | 5 | [🧾 Output Formatting](techniques/output-format.md) | Tell it the *shape* you want: list, table, JSON. |
 | 6 | [🚦 Constraints & Negatives](techniques/constraints.md) | Set the boundaries it can't cross. |
 | 7 | [✍️ Output Priming](techniques/output-priming.md) | Start the answer for it; it finishes the pattern. |
+| 8 | [🖼️ Multimodal Prompting](techniques/multimodal-prompting.md) | Prompt with images, not just words. |
 
 ### ⚙️ Level up — reasoning & reliability
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 8 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
-| 9 | [🪜 Step-Back Prompting](techniques/step-back.md) | Get the general principle first, then the answer. |
-| 10 | [🧗 Least-to-Most](techniques/least-to-most.md) | Solve the easy sub-problems first, then climb. |
-| 11 | [🌳 Tree of Thoughts](techniques/tree-of-thoughts.md) | Explore several branches, keep the best. |
-| 12 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
-| 13 | [🔍 Self-Critique & Reflection](techniques/self-critique.md) | Have it grade and fix its own work. |
-| 14 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
+| 9 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
+| 10 | [🪜 Step-Back Prompting](techniques/step-back.md) | Get the general principle first, then the answer. |
+| 11 | [🧗 Least-to-Most](techniques/least-to-most.md) | Solve the easy sub-problems first, then climb. |
+| 12 | [🌳 Tree of Thoughts](techniques/tree-of-thoughts.md) | Explore several branches, keep the best. |
+| 13 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
+| 14 | [🔍 Self-Critique & Reflection](techniques/self-critique.md) | Have it grade and fix its own work. |
+| 15 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
+| 16 | [📖 Grounding (Answer from Context)](techniques/grounding.md) | Make it answer only from facts you supply. |
 
 ### 🤖 Power tools — building with prompts
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 15 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
-| 16 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
-| 17 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
-| 18 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
-| 19 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
-| 20 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
+| 17 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
+| 18 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
+| 19 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
+| 20 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
+| 21 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
+| 22 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
 
 ### 🛡️ Don't get burned — pitfalls
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 21 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
-| 22 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
+| 23 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
+| 24 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
 
 ---
 
@@ -94,9 +123,7 @@ No PhD required. No prior coding needed. Just better results from the AI you alr
 
 ## 🧩 Sister project
 
-This is the companion to **[AI for Beginners — Visual Edition](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual)** — 32 core AI concepts (LLM, token, embedding, RAG…) explained the same visual way. Learn *what AI is* there, learn *how to talk to it* here.
-
-> 📝 **Heads up:** replace `YOUR_GITHUB_USERNAME` in the links above (and inside the technique files) with your actual GitHub username once you create the repos.
+This is the companion to **[AI for Beginners — Visual Edition](https://github.com/behnia137/ai-for-beginners-visual)** — 32 core AI concepts (LLM, token, embedding, RAG…) explained the same visual way. Learn *what AI is* there, learn *how to talk to it* here.
 
 ---
 

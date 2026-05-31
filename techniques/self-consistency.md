@@ -19,7 +19,7 @@ flowchart TB
 
 ## 🔧 How it actually works
 
-**Self-consistency** builds on [chain-of-thought](chain-of-thought.md). Instead of trusting a single reasoning path, you ask the model to solve the *same* problem several times (with some randomness, via a higher [temperature](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/temperature.md)), each time reasoning independently. Then you take the **most common final answer**.
+**Self-consistency** builds on [chain-of-thought](chain-of-thought.md). Instead of trusting a single reasoning path, you ask the model to solve the *same* problem several times (with some randomness, via a higher [temperature](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/temperature.md)), each time reasoning independently. Then you take the **most common final answer**.
 
 The logic: there are many wrong ways to reason but they tend to disagree with each other, while correct reasoning paths tend to converge on the same answer. So the answer that shows up most often across attempts is usually the right one. It's an "ask the crowd, then vote" strategy applied to a single model.
 

@@ -21,7 +21,7 @@ You can't eliminate hallucinations with prompting alone, but you can sharply red
 - **Give it the facts.** Paste the source text and say "answer using only this." (This is the idea behind retrieval-augmented generation.)
 - **Permit "I don't know."** Models often invent answers because they feel obligated to respond. Explicitly allowing uncertainty gives them an honest exit.
 - **Ask for sources / quotes.** "Quote the exact sentence that supports your answer" exposes fabrications fast.
-- **Lower the [temperature](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/temperature.md)** for factual tasks so the model stays conservative.
+- **Lower the [temperature](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/temperature.md)** for factual tasks so the model stays conservative.
 - **Verify anything that matters** — never trust unsourced numbers, names, or legal/medical claims.
 
 ## 🌍 Real-world example

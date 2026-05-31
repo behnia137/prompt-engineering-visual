@@ -20,7 +20,7 @@ Each step's output becomes the next step's input.
 
 It works because models do each *focused* step more reliably than one overloaded mega-task. Smaller steps are easier to get right, easier to debug (you can see exactly which link failed), and easier to mix and match. You can even use different settings per step — creative for brainstorming, precise for formatting.
 
-This is the backbone of most real AI apps and [AI agents](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/ai-agent.md): a research assistant might chain "search → read results → summarize → draft answer → add citations." When a multi-step prompt keeps dropping requirements, chaining is usually the fix — give the model one clear job at a time.
+This is the backbone of most real AI apps and [AI agents](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/ai-agent.md): a research assistant might chain "search → read results → summarize → draft answer → add citations." When a multi-step prompt keeps dropping requirements, chaining is usually the fix — give the model one clear job at a time.
 
 ## 🌍 Real-world example
 

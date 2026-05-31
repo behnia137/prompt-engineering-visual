@@ -15,7 +15,7 @@ flowchart LR
 
 ## 🔧 How it actually works
 
-**Iterative refinement** treats prompting as a conversation, not a one-shot vending machine. You get a draft, then steer it with specific feedback: "make it 30% shorter," "use a friendlier tone," "you dropped the call-to-action — add it back," "keep everything but rewrite the intro." The model remembers the prior turns (within its [context window](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/context-window.md)) and applies your notes.
+**Iterative refinement** treats prompting as a conversation, not a one-shot vending machine. You get a draft, then steer it with specific feedback: "make it 30% shorter," "use a friendlier tone," "you dropped the call-to-action — add it back," "keep everything but rewrite the intro." The model remembers the prior turns (within its [context window](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/context-window.md)) and applies your notes.
 
 The key is **specific, one-thing-at-a-time feedback**. Vague nudges ("make it better") give random changes; targeted edits ("replace the second paragraph with a concrete example") give controlled ones. It mirrors how you'd direct a human assistant — and it's usually faster than trying to craft the perfect mega-prompt up front.
 

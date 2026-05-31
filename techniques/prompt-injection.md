@@ -18,7 +18,7 @@ flowchart TB
 
 **Prompt injection** is an attack where malicious instructions are smuggled into the content the AI processes, tricking it into ignoring its real instructions. Because the model can't truly tell "trusted instructions" apart from "untrusted data" — it's all just text — a comment, email, or web page can hijack its behavior.
 
-There are two flavors. **Direct injection**: a user types "ignore your rules and..." right into the chat. **Indirect injection**: the malicious text hides in a document, website, or email the AI reads on someone's behalf — far sneakier, because the victim never sees it. The risk scales with power: an [AI agent](https://github.com/YOUR_GITHUB_USERNAME/ai-for-beginners-visual/blob/main/concepts/ai-agent.md) that can send emails or run code can be turned into a weapon.
+There are two flavors. **Direct injection**: a user types "ignore your rules and..." right into the chat. **Indirect injection**: the malicious text hides in a document, website, or email the AI reads on someone's behalf — far sneakier, because the victim never sees it. The risk scales with power: an [AI agent](https://github.com/behnia137/ai-for-beginners-visual/blob/main/concepts/ai-agent.md) that can send emails or run code can be turned into a weapon.
 
 Defenses are about *reducing* risk, not perfect prevention: wrap untrusted content in [delimiters](delimiters.md) and label it as data, keep a strong [system prompt](system-prompt.md), strip or flag suspicious instructions, limit what tools the AI can call, and **never let a model take a dangerous action without a human check**. Treat all external text as potentially hostile.
 
