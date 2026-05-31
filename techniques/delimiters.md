@@ -7,9 +7,9 @@
 ```mermaid
 flowchart TB
     M["📋 Instruction:<br/>'Summarize the text<br/>between the triple quotes'"]
-    M --> D["\"\"\"<br/>...pasted article...<br/>\"\"\""]
+    M --> D["&quot;&quot;&quot;<br/>...pasted article...<br/>&quot;&quot;&quot;"]
     D --> R["✅ Clean summary,<br/>no mix-ups"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 Fences keep instructions and content from blurring together.

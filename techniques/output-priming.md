@@ -6,10 +6,10 @@
 
 ```mermaid
 flowchart TB
-    P["📝 Prompt ends with:<br/>'...Return JSON.'<br/><br/>Then you pre-write:<br/>{ \"name\":"]
+    P["📝 Prompt ends with:<br/>'...Return JSON.'<br/><br/>Then you pre-write:<br/>{ &quot;name&quot;:"]
     P --> AI[🤖 continues from there]
-    AI --> R["✅ \"name\": \"Mug\", \"price\": 9.99 }"]
-    style R fill:#dcfce7,stroke:#22c55e
+    AI --> R["✅ &quot;name&quot;: &quot;Mug&quot;, &quot;price&quot;: 9.99 }"]
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 The AI finishes the pattern you started.

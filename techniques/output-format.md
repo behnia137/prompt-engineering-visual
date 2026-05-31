@@ -8,7 +8,7 @@
 flowchart LR
     P["📝 '...Return as JSON:<br/>{name, price, in_stock}'"] --> AI[🤖]
     AI --> J["{<br/>  'name': 'Mug',<br/>  'price': 9.99,<br/>  'in_stock': true<br/>}"]
-    style J fill:#dcfce7,stroke:#22c55e
+    style J fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 Ask for a specific structure and the AI fills it in.

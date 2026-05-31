@@ -9,7 +9,7 @@ flowchart TB
     T["🧱 Template:<br/>'You are a {role}. Summarize<br/>{text} in {n} bullet points<br/>for a {audience}.'"]
     T --> F["✏️ Fill the blanks:<br/>role=editor, n=3,<br/>audience=busy CEO"]
     F --> R["✅ Consistent result,<br/>every time"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

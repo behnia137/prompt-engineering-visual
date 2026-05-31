@@ -12,8 +12,8 @@ flowchart LR
     subgraph OUT["🎨 Image-out (generation)"]
         P2["📝 'cozy cafe, warm light,<br/>35mm, watercolor'"] --> A2["🖼️ matching image"]
     end
-    style A1 fill:#dcfce7,stroke:#22c55e
-    style A2 fill:#dcfce7,stroke:#22c55e
+    style A1 fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style A2 fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

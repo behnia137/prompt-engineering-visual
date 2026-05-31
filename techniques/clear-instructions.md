@@ -8,8 +8,8 @@
 flowchart TB
     A["❌ 'write something about dogs'"] --> B[🤷 generic blob]
     C["✅ 'Write a 100-word, upbeat<br/>Instagram caption about<br/>adopting senior dogs,<br/>ending with a question'"] --> D[🎯 exactly what you wanted]
-    style B fill:#fee2e2,stroke:#ef4444
-    style D fill:#dcfce7,stroke:#22c55e
+    style B fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+    style D fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

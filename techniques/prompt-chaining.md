@@ -9,7 +9,7 @@ flowchart LR
     A["1️⃣ Outline<br/>the article"] --> B["2️⃣ Draft each<br/>section"]
     B --> C["3️⃣ Polish the<br/>tone"]
     C --> D["✅ Finished piece"]
-    style D fill:#dcfce7,stroke:#22c55e
+    style D fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 Each step's output becomes the next step's input.

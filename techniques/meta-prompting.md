@@ -9,7 +9,7 @@ flowchart LR
     Y["🙋 'Help me write a prompt<br/>that makes you a strict<br/>resume reviewer'"] --> AI[🤖]
     AI --> P["📜 A polished, detailed<br/>prompt you can now reuse"]
     P --> U["🚀 Use it for the real task"]
-    style P fill:#dcfce7,stroke:#22c55e
+    style P fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

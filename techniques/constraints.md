@@ -8,8 +8,8 @@
 flowchart TB
     P["📝 'Suggest a gift'"] --> O1[🤷 random, maybe too pricey]
     Q["📝 'Suggest a gift —<br/>under $30, no food,<br/>for someone who hikes,<br/>max 5 options'"] --> O2[🎯 tight, useful list]
-    style O1 fill:#fee2e2,stroke:#ef4444
-    style O2 fill:#dcfce7,stroke:#22c55e
+    style O1 fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+    style O2 fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

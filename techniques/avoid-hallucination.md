@@ -8,8 +8,8 @@
 flowchart TB
     A["❌ 'Who won the 2030 World Cup?'<br/>→ confidently invents a winner"]
     B["✅ 'Using ONLY the text below,<br/>answer. If it's not there,<br/>say I don't know.'<br/>→ 'I don't know.'"]
-    style A fill:#fee2e2,stroke:#ef4444
-    style B fill:#dcfce7,stroke:#22c55e
+    style A fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+    style B fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

@@ -8,7 +8,7 @@
 flowchart TB
     E["📋 Examples you give:<br/>'happy' → 😊<br/>'sad' → 😢<br/>'angry' → 😠"] --> M[🤖 AI spots the pattern]
     M --> R["🆕 'excited' → 🤩<br/>(it figured out the rule)"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 A few examples teach the pattern better than a paragraph of instructions.

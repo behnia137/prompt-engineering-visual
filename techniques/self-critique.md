@@ -9,7 +9,7 @@ flowchart LR
     D["📝 First answer"] --> C["🔍 'Find 3 flaws<br/>in your answer'"]
     C --> F["🛠️ 'Now rewrite it,<br/>fixing those flaws'"]
     F --> R["✅ Stronger answer"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

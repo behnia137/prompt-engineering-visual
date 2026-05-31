@@ -10,7 +10,7 @@ flowchart TB
     Q --> S["🪜 Step back first:<br/>'What's the gas law that<br/>relates pressure & temperature?'"]
     S --> P["📘 'P/T is constant (Gay-Lussac)'"]
     P --> A["✅ 'Pressure doubles too.'"]
-    style A fill:#dcfce7,stroke:#22c55e
+    style A fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

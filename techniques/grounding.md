@@ -11,7 +11,7 @@ flowchart TB
     D --> AI[🤖 reads only the source]
     Q --> AI
     AI --> R["✅ '30 days, per the policy above.'"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

@@ -14,9 +14,9 @@ flowchart TB
     B --> B2["promising ✅"]
     C --> C2["dead end ❌"]
     B2 --> R["🏆 Best answer"]
-    style R fill:#dcfce7,stroke:#22c55e
-    style A2 fill:#fee2e2,stroke:#ef4444
-    style C2 fill:#fee2e2,stroke:#ef4444
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style A2 fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+    style C2 fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
 ```
 
 ## 🔧 How it actually works

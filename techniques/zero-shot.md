@@ -8,7 +8,7 @@
 flowchart LR
     A["📝 Your instruction<br/>'Translate this to French:<br/>Good morning'"] --> B[🤖 AI]
     B --> C["✅ 'Bonjour'"]
-    style C fill:#dcfce7,stroke:#22c55e
+    style C fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 No examples needed — the model already learned the task during training.

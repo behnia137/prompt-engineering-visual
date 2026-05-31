@@ -9,8 +9,8 @@ flowchart TB
     Q["❓ 'Explain gravity'"]
     Q --> A["🎓 'You are a physics professor'<br/>→ precise, technical"]
     Q --> B["🧒 'You are a kindergarten teacher'<br/>→ simple, playful"]
-    style A fill:#dbeafe,stroke:#3b82f6
-    style B fill:#fef9c3,stroke:#eab308
+    style A fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style B fill:#fef9c3,stroke:#eab308,color:#713f12
 ```
 
 Same question, different hat → different answer.

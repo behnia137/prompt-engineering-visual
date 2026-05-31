@@ -10,7 +10,7 @@ flowchart LR
     S1 --> S2["2️⃣ Next, using #1's answer"]
     S2 --> S3["3️⃣ Next, using #2's answer"]
     S3 --> A["✅ Full solution"]
-    style A fill:#dcfce7,stroke:#22c55e
+    style A fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

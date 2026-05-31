@@ -10,7 +10,7 @@ flowchart LR
     F1 --> D2["📝 Draft 2"]
     D2 --> F2["🗣️ 'add a stat in line 1'"]
     F2 --> D3["✅ Draft 3 (nailed it)"]
-    style D3 fill:#dcfce7,stroke:#22c55e
+    style D3 fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

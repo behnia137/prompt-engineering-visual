@@ -11,7 +11,7 @@ flowchart TB
     S --> AI[🤖]
     U --> AI
     AI --> R["✅ 'Start by breaking it into<br/>12 × 8 = 10×8 + 2×8...'"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

@@ -51,12 +51,12 @@ flowchart TD
     Style -->|No| Odd{"Unusual or<br/>custom task?"}
     Odd -->|Yes| FS["📚 Few-Shot<br/>(show examples)"]
     Odd -->|No| ZS["🎯 Zero-Shot<br/>(just ask clearly)"]
-    style G fill:#dcfce7,stroke:#22c55e
-    style CoT fill:#dcfce7,stroke:#22c55e
-    style OF fill:#dcfce7,stroke:#22c55e
-    style Role fill:#dcfce7,stroke:#22c55e
-    style FS fill:#dcfce7,stroke:#22c55e
-    style ZS fill:#dcfce7,stroke:#22c55e
+    style G fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style CoT fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style OF fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style Role fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style FS fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style ZS fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ---

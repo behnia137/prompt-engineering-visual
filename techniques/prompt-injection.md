@@ -11,7 +11,7 @@ flowchart TB
     S --> AI[🤖]
     D --> AI
     AI --> R["⚠️ Might obey the<br/>hidden instruction!"]
-    style R fill:#fee2e2,stroke:#ef4444
+    style R fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
 ```
 
 ## 🔧 How it actually works

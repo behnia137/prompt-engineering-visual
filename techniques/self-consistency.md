@@ -14,7 +14,7 @@ flowchart TB
     A2 --> V
     A3 --> V
     V --> R["✅ 42 (2 of 3 agree)"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ## 🔧 How it actually works

@@ -10,7 +10,7 @@ flowchart LR
     A --> O["👀 Observe:<br/>'18°C, rain'"]
     O --> T2["🧠 Thought:<br/>'Now I can answer'"]
     T2 --> R["✅ Final answer"]
-    style R fill:#dcfce7,stroke:#22c55e
+    style R fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 Loop: Think → Act → Observe → repeat.
