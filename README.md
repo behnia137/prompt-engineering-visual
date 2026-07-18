@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🧠 Prompt Engineering — Visual Edition
+# 🧠 Prompt Engineering: Visual Edition
 
-### Get better answers from AI — with prompts you can copy today.
+### Get better answers from AI, with prompts you can copy today.
 
-**Simple visuals + everyday analogies + copy-paste templates that turn anyone into a confident prompter — whether you write code or just chat with ChatGPT.**
+**Simple visuals + everyday analogies + copy-paste templates that turn anyone into a confident prompter, whether you write code or just chat with ChatGPT.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -13,7 +13,7 @@
 [![Techniques](https://img.shields.io/badge/techniques-24-blueviolet.svg)](#-the-techniques)
 [![Stars Welcome](https://img.shields.io/badge/⭐_stars-welcome-gold.svg)](#)
 
-*If this helps you finally write prompts that work — drop a ⭐. It helps more people find it.*
+*If this helps you finally write prompts that work, drop a ⭐. It helps more people find it.*
 
 </div>
 
@@ -21,14 +21,14 @@
 
 ## 🤔 Why this exists
 
-Everyone's using AI, but most people are leaving **80% of its power on the table** — because nobody taught them how to *ask*. The guides out there are either **academic papers** or **"10 magic prompts" clickbait**.
+Everyone's using AI, but most people are leaving **80% of its power on the table**, because nobody taught them how to *ask*. The guides out there are either **academic papers** or **"10 magic prompts" clickbait**.
 
 This repo sits in the middle. Every technique gets:
 
-- 🧒 **An "Explain Like I'm 5" analogy** — the one-liner you'll actually remember
-- 🖼️ **A simple diagram** — see how the technique works, don't just read it
-- 🔧 **"How it actually works"** — for when you're ready to go deeper
-- 🌍 **A real-world example** — where it actually helps
+- 🧒 **An "Explain Like I'm 5" analogy** (the one-liner you'll actually remember)
+- 🖼️ **A simple diagram** (see how the technique works, don't just read it)
+- 🔧 **"How it actually works"** (for when you're ready to go deeper)
+- 🌍 **A real-world example** (where it actually helps)
 
 No PhD required. No prior coding needed. Just better results from the AI you already use.
 
@@ -63,20 +63,20 @@ flowchart TD
 
 ## 📚 The Techniques
 
-### 🌱 Start here — the everyday essentials
+### 🌱 Start here: the everyday essentials
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 1 | [🎯 Zero-Shot Prompting](techniques/zero-shot.md) | Just ask — no examples needed. |
+| 1 | [🎯 Zero-Shot Prompting](techniques/zero-shot.md) | Just ask, no examples needed. |
 | 2 | [📚 Few-Shot Prompting](techniques/few-shot.md) | Show 2–3 examples and let it copy the pattern. |
 | 3 | [🎭 Role Prompting](techniques/role-prompting.md) | Give the AI a job title before you ask. |
-| 4 | [📐 Clear Instructions](techniques/clear-instructions.md) | Vague in, vague out — be specific. |
+| 4 | [📐 Clear Instructions](techniques/clear-instructions.md) | Vague in, vague out. Be specific. |
 | 5 | [🧾 Output Formatting](techniques/output-format.md) | Tell it the *shape* you want: list, table, JSON. |
 | 6 | [🚦 Constraints & Negatives](techniques/constraints.md) | Set the boundaries it can't cross. |
 | 7 | [✍️ Output Priming](techniques/output-priming.md) | Start the answer for it; it finishes the pattern. |
 | 8 | [🖼️ Multimodal Prompting](techniques/multimodal-prompting.md) | Prompt with images, not just words. |
 
-### ⚙️ Level up — reasoning & reliability
+### ⚙️ Level up: reasoning & reliability
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
@@ -89,7 +89,7 @@ flowchart TD
 | 15 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
 | 16 | [📖 Grounding (Answer from Context)](techniques/grounding.md) | Make it answer only from facts you supply. |
 
-### 🤖 Power tools — building with prompts
+### 🤖 Power tools: building with prompts
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
@@ -100,7 +100,7 @@ flowchart TD
 | 21 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
 | 22 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
 
-### 🛡️ Don't get burned — pitfalls
+### 🛡️ Don't get burned: pitfalls
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
@@ -123,13 +123,13 @@ flowchart TD
 
 ## 🧩 Sister project
 
-This is the companion to **[AI for Beginners — Visual Edition](https://github.com/behnia137/ai-for-beginners-visual)** — 32 core AI concepts (LLM, token, embedding, RAG…) explained the same visual way. Learn *what AI is* there, learn *how to talk to it* here.
+This is the companion to **[AI for Beginners: Visual Edition](https://github.com/behnia137/ai-for-beginners-visual)**, 32 core AI concepts (LLM, token, embedding, RAG…) explained the same visual way. Learn *what AI is* there, learn *how to talk to it* here.
 
 ---
 
 ## 🤝 Contributing
 
-Got a clearer analogy or a technique we're missing? PRs are warmly welcome — see **[CONTRIBUTING.md](CONTRIBUTING.md)**. You don't need to be an expert; if you can explain something simply, you can contribute.
+Got a clearer analogy or a technique we're missing? PRs are warmly welcome, see **[CONTRIBUTING.md](CONTRIBUTING.md)**. You don't need to be an expert; if you can explain something simply, you can contribute.
 
 ---
 

@@ -1,13 +1,13 @@
-# 🤝 Contributing to Prompt Engineering — Visual Edition
+# 🤝 Contributing to Prompt Engineering: Visual Edition
 
-First off: **thank you!** This project gets better every time someone adds a clearer analogy or a missing technique. You don't need to be a prompt-engineering expert — if you can explain something simply, you can contribute.
+First off: **thank you!** This project gets better every time someone adds a clearer analogy or a missing technique. You don't need to be a prompt-engineering expert, if you can explain something simply, you can contribute.
 
 ---
 
 ## 🌟 Ways to contribute
 
 - **Add a new technique** (the most valuable!)
-- **Improve an existing analogy** — make it clearer or more memorable
+- **Improve an existing analogy** (make it clearer or more memorable)
 - **Add a better copy-paste prompt example**
 - **Fix or upgrade a diagram**
 - **Fix typos / grammar / broken links**
@@ -42,7 +42,7 @@ coffee," not "research paper."
 
 ## 🌍 Real-world example
 
-One concrete place this technique helps — an app, a workflow, or a daily task.
+One concrete place this technique helps (an app, a workflow, or a daily task).
 
 ## 🔗 Related
 
@@ -60,7 +60,7 @@ One concrete place this technique helps — an app, a workflow, or a daily task.
 ## ✅ Style guide (the whole thing)
 
 - **Analogy first.** If a 12-year-old wouldn't get the one-liner, simplify it.
-- **Show, don't just tell.** Every technique needs a diagram (mermaid preferred — GitHub renders it).
+- **Show, don't just tell.** Every technique needs a diagram (mermaid preferred, GitHub renders it).
 - **Give a usable example.** Where it helps, include a prompt the reader can copy and adapt.
 - **Short paragraphs.** 2–4 sentences each. White space is your friend.
 - **Explain every acronym** the first time you use it.

@@ -16,11 +16,11 @@ Fences keep instructions and content from blurring together.
 
 ## 🔧 How it actually works
 
-When your prompt contains both **instructions** and a **chunk of content** (an article, code, user input), the model can get confused about where one ends and the other begins — especially if the content itself looks like a command. **Delimiters** solve this: wrap the content in clear markers like triple quotes `"""`, triple backticks ` ``` `, XML-style tags `<article>...</article>`, or `### headings ###`.
+When your prompt contains both **instructions** and a **chunk of content** (an article, code, user input), the model can get confused about where one ends and the other begins, especially if the content itself looks like a command. **Delimiters** solve this: wrap the content in clear markers like triple quotes `"""`, triple backticks ` ``` `, XML-style tags `<article>...</article>`, or `### headings ###`.
 
-This does two things. First, it removes ambiguity — "summarize the text inside `<doc>` tags" leaves no room for misreading. Second, it's a real **security measure**: it makes [prompt injection](prompt-injection.md) harder, because text hiding inside the fenced section is treated as *data to process*, not *instructions to obey*.
+This does two things. First, it removes ambiguity, "summarize the text inside `<doc>` tags" leaves no room for misreading. Second, it's a real **security measure**: it makes [prompt injection](prompt-injection.md) harder, because text hiding inside the fenced section is treated as *data to process*, not *instructions to obey*.
 
-For longer prompts, structure the whole thing with labeled sections: `# Role`, `# Task`, `# Rules`, `# Input`, `# Output format`. Models follow well-organized prompts far more reliably than one giant run-on paragraph — the same way a tidy brief beats a rambling one.
+For longer prompts, structure the whole thing with labeled sections: `# Role`, `# Task`, `# Rules`, `# Input`, `# Output format`. Models follow well-organized prompts far more reliably than one giant run-on paragraph, the same way a tidy brief beats a rambling one.
 
 ## 🌍 Real-world example
 
