@@ -29,3 +29,4 @@ Two more habits that help a lot: **put the instruction before the content** (mod
 - [Output Formatting](output-format.md)
 - [Zero-Shot Prompting](zero-shot.md)
 - [Iterative Refinement](iterative-refinement.md)
+- [Clarifying Questions](clarifying-questions.md)

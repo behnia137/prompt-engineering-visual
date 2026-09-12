@@ -29,3 +29,4 @@ You want great Midjourney-style image prompts but don't know the lingo. You ask,
 - [Iterative Refinement](iterative-refinement.md)
 - [Prompt Templates](prompt-templates.md)
 - [Clear Instructions](clear-instructions.md)
+- [Clarifying Questions](clarifying-questions.md)

@@ -30,3 +30,4 @@ You ask for a cover letter, get a decent draft, then say "cut the clichés, ment
 - [Clear Instructions](clear-instructions.md)
 - [Prompt Chaining](prompt-chaining.md)
 - [Self-Consistency](self-consistency.md)
+- [Clarifying Questions](clarifying-questions.md)

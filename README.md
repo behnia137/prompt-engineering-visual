@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Made with Mermaid](https://img.shields.io/badge/diagrams-mermaid-ff3670.svg)](https://mermaid.js.org/)
 [![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-blue.svg)](#-the-techniques)
-[![Techniques](https://img.shields.io/badge/techniques-24-blueviolet.svg)](#-the-techniques)
+[![Techniques](https://img.shields.io/badge/techniques-25-blueviolet.svg)](#-the-techniques)
 [![Stars Welcome](https://img.shields.io/badge/⭐_stars-welcome-gold.svg)](#)
 
 *If this helps you finally write prompts that work, drop a ⭐. It helps more people find it.*
@@ -50,13 +50,16 @@ flowchart TD
     Style -->|Yes| Role["🎭 Role Prompting"]
     Style -->|No| Odd{"Unusual or<br/>custom task?"}
     Odd -->|Yes| FS["📚 Few-Shot<br/>(show examples)"]
-    Odd -->|No| ZS["🎯 Zero-Shot<br/>(just ask clearly)"]
+    Odd -->|No| Fuzzy{"Still not sure what<br/>you want yourself?"}
+    Fuzzy -->|Yes| CQ["🙋 Clarifying Questions<br/>(let it interview you)"]
+    Fuzzy -->|No| ZS["🎯 Zero-Shot<br/>(just ask clearly)"]
     style G fill:#dcfce7,stroke:#22c55e,color:#14532d
     style CoT fill:#dcfce7,stroke:#22c55e,color:#14532d
     style OF fill:#dcfce7,stroke:#22c55e,color:#14532d
     style Role fill:#dcfce7,stroke:#22c55e,color:#14532d
     style FS fill:#dcfce7,stroke:#22c55e,color:#14532d
     style ZS fill:#dcfce7,stroke:#22c55e,color:#14532d
+    style CQ fill:#dcfce7,stroke:#22c55e,color:#14532d
 ```
 
 ---
@@ -75,37 +78,38 @@ flowchart TD
 | 6 | [🚦 Constraints & Negatives](techniques/constraints.md) | Set the boundaries it can't cross. |
 | 7 | [✍️ Output Priming](techniques/output-priming.md) | Start the answer for it; it finishes the pattern. |
 | 8 | [🖼️ Multimodal Prompting](techniques/multimodal-prompting.md) | Prompt with images, not just words. |
+| 9 | [🙋 Clarifying Questions](techniques/clarifying-questions.md) | Make the AI interview you before it answers. |
 
 ### ⚙️ Level up: reasoning & reliability
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 9 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
-| 10 | [🪜 Step-Back Prompting](techniques/step-back.md) | Get the general principle first, then the answer. |
-| 11 | [🧗 Least-to-Most](techniques/least-to-most.md) | Solve the easy sub-problems first, then climb. |
-| 12 | [🌳 Tree of Thoughts](techniques/tree-of-thoughts.md) | Explore several branches, keep the best. |
-| 13 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
-| 14 | [🔍 Self-Critique & Reflection](techniques/self-critique.md) | Have it grade and fix its own work. |
-| 15 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
-| 16 | [📖 Grounding (Answer from Context)](techniques/grounding.md) | Make it answer only from facts you supply. |
+| 10 | [🔗 Chain-of-Thought](techniques/chain-of-thought.md) | Ask it to "think step by step." |
+| 11 | [🪜 Step-Back Prompting](techniques/step-back.md) | Get the general principle first, then the answer. |
+| 12 | [🧗 Least-to-Most](techniques/least-to-most.md) | Solve the easy sub-problems first, then climb. |
+| 13 | [🌳 Tree of Thoughts](techniques/tree-of-thoughts.md) | Explore several branches, keep the best. |
+| 14 | [🗳️ Self-Consistency](techniques/self-consistency.md) | Ask a few times, take the majority answer. |
+| 15 | [🔍 Self-Critique & Reflection](techniques/self-critique.md) | Have it grade and fix its own work. |
+| 16 | [🔄 Iterative Refinement](techniques/iterative-refinement.md) | Treat the first answer as a draft, then steer. |
+| 17 | [📖 Grounding (Answer from Context)](techniques/grounding.md) | Make it answer only from facts you supply. |
 
 ### 🤖 Power tools: building with prompts
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 17 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
-| 18 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
-| 19 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
-| 20 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
-| 21 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
-| 22 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
+| 18 | [🚧 Delimiters & Structure](techniques/delimiters.md) | Fence off your content so it's never confused. |
+| 19 | [⛓️ Prompt Chaining](techniques/prompt-chaining.md) | Break big jobs into a chain of small prompts. |
+| 20 | [🔁 ReAct (Reason + Act)](techniques/react.md) | Think → act → observe → repeat. |
+| 21 | [🪪 System Prompt](techniques/system-prompt.md) | The hidden rulebook behind every AI app. |
+| 22 | [🪞 Meta-Prompting](techniques/meta-prompting.md) | Ask the AI to write your prompt for you. |
+| 23 | [🧱 Prompt Templates](techniques/prompt-templates.md) | Write it once with blanks, reuse forever. |
 
 ### 🛡️ Don't get burned: pitfalls
 
 | # | Technique | One-liner |
 |---|-----------|-----------|
-| 23 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
-| 24 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
+| 24 | [🌀 Avoiding Hallucinations](techniques/avoid-hallucination.md) | Stop the AI from confidently making things up. |
+| 25 | [🛡️ Prompt Injection](techniques/prompt-injection.md) | The sneaky attack every prompter should know. |
 
 ---
 
@@ -118,6 +122,7 @@ flowchart TD
 3. **Assign a role.** "You are a..." reshapes the whole answer. ([more](techniques/role-prompting.md))
 4. **For hard problems, say "think step by step."** ([more](techniques/chain-of-thought.md))
 5. **Iterate.** The first reply is a draft, not the final word. ([more](techniques/iterative-refinement.md))
+6. **When the ask is fuzzy, make it interview you first.** ([more](techniques/clarifying-questions.md))
 
 ---
 
